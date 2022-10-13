@@ -1,0 +1,10 @@
+<!--pages/ruler2/ruler2.wxml-->
+<view class="container">
+  <view class="bg" style="height:{{heights}}px">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <view class="btns" >
+  <button bindtap="rulers" type="warning" class="button-top">上一页</button>
+  <button bindtap="getBack" type="warning" class="button-in">返回</button>
+  </view>
+</view>

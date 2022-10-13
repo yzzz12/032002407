@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/Menu/Menu",
+    "pages/Player_VS_AI/Player_VS_AI",
+    "pages/Player_VS_Player/Player_VS_Player",
+    "pages/ruler1/ruler1",
+    "pages/ruler2/ruler2"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "逍遥骰",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "i-button": "./dist/button/index"
+  }
+}

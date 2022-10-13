@@ -1,0 +1,14 @@
+<!--pages/Menu/Menu.wxml-->
+<!-- <text>pages/Menu/Menu.wxml</text> -->
+
+<view class="container">
+  <!-- <button bindtap="continue" type="warning" class="button-top">继续游戏</button> -->
+  <view class="bg" >
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+
+  <button bindtap="player_ai" type="warning" class="button-top">人机对战</button>
+  <button bindtap="player_player" type="warning" class="button-in">本地对战</button>
+  <button bindtap="rulers" type="warning" class="button-in">游戏规则</button>
+  <!-- <button bindtap="getBack" type="warning" class="button-in">返回</button> -->
+</view>

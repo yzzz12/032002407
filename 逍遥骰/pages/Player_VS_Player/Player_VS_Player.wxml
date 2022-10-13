@@ -1,0 +1,45 @@
+<!--pages/Player_VS_Player/Player_VS_Player.wxml-->
+<!-- <text>pages/Player_VS_Player/Player_VS_Player.wxml</text> -->
+<view class="container">
+  <!-- 背景 -->
+  <view class="bg">
+    <image class="bg-image" mode="scaleToFill"></image>
+  </view>
+  <!-- 上棋盘 -->
+  <view class="upchessBoard"> 
+    <image class="up1.1" src="{{img[0]}}" data-id="0" style="width: 80px;height: 80px;" bindtap="upstep"></image>
+    <image class="up2.1" src="{{img[3]}}" data-id="3" style="width: 80px;height: 80px;" bindtap="upstep"></image>
+    <image class="up3.1" src="{{img[6]}}" data-id="6" style="width: 80px;height: 80px;" bindtap="upstep"></image>
+    <image class="up1.2" src="{{img[1]}}" data-id="1" style="width: 80px;height: 80px;" bindtap="upstep"></image>
+    <image class="up2.2" src="{{img[4]}}" data-id="4" style="width: 80px;height: 80px;" bindtap="upstep"></image> 
+    <image class="up3.2" src="{{img[7]}}" data-id="7" style="width: 80px;height: 80px;" bindtap="upstep"></image>
+   <image class="up1.3" src="{{img[2]}}" data-id="2" style="width: 80px;height: 80px;" bindtap="upstep"></image>
+    <image class="up2.3" src="{{img[5]}}" data-id="5" style="width: 80px;height: 80px;" bindtap="upstep"></image> 
+    <image class="up3.3" src="{{img[8]}}" data-id="8" style="width: 80px;height: 80px;" bindtap="upstep"></image>
+  </view> 
+  <!-- 下棋盘 -->
+  <view class="downchessBoard"> 
+    <image src="{{dimg[0]}}" data-id="0" style="width: 80px;height: 80px;" bindtap="downstep"></image>
+    <image src="{{dimg[3]}}" data-id="3" style="width: 80px;height: 80px;" bindtap="downstep"></image>
+    <image src="{{dimg[6]}}" data-id="6" style="width: 80px;height: 80px;" bindtap="downstep"></image>
+    <image src="{{dimg[1]}}" data-id="1" style="width: 80px;height: 80px;" bindtap="downstep"></image>
+    <image src="{{dimg[4]}}" data-id="4" style="width: 80px;height: 80px;" bindtap="downstep"></image>
+    <image src="{{dimg[7]}}" data-id="7" style="width: 80px;height: 80px;" bindtap="downstep"></image>
+    <image src="{{dimg[2]}}" data-id="2" style="width: 80px;height: 80px;" bindtap="downstep"></image>  
+    <image src="{{dimg[5]}}" data-id="5" style="width: 80px;height: 80px;" bindtap="downstep"></image>   
+    <image src="{{dimg[8]}}" data-id="8" style="width: 80px;height: 80px;" bindtap="downstep"></image>
+  </view> 
+  <!-- 上棋盘左骰子 -->
+  <view class="left">
+    <image src="{{imgleft}}" style="width: 80px;height: 80px;" bindtap="updiceClick"></image>
+  </view> 
+  <!-- 下棋盘右骰子 -->
+  <view class="right">
+    <image src="{{imgright}}" style="width: 80px;height: 80px;" bindtap="downdiceClick"></image>
+  </view> 
+   
+   <view class="upscore" >0</view>
+   <view class="downscore" >0</view>
+
+</view>
+
