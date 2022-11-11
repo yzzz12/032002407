@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/course/course",
+    "pages/my/my",
+    "pages/set/set"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#8EB4CF",
+    "navigationBarTitleText": "东学西读",
+    "navigationBarTextStyle":"white",
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#686868",
+    "selectedColor": "#47a86c",
+    "backgroundColor": "#F6F5F5",
+    "borderStyle": "white",
+    "list": [
+      
+      {
+        "pagePath": "pages/course/course",
+        "iconPath": "images/icon_course.png",
+        "selectedIconPath": "images/icon_course.png",
+        "text": "课程"
+      },
+
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/icon_my.png",
+        "selectedIconPath": "images/icon_my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
